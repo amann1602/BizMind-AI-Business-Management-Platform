@@ -25,7 +25,7 @@ yarn-error.log*
 # local env files
 .env
 .env*.local
-.env.production
+.env.productionhttps://console.prisma.io/afwswxhv9ijg5utqv8l5wjzc/btnhoz1f2651c3fi49z3pt1p
 
 # SQLite database
 dev.db
