@@ -11,6 +11,7 @@ if (fs.existsSync(schemaPath)) {
     process.env.POSTGRES_PRISMA_URL ||
     process.env.PRISMA_POSTGRES_DATABASE_URL ||
     process.env.POSTGRES_URL ||
+    process.env.STORAGE_URL ||
     "";
 
   const isPostgres =

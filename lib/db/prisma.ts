@@ -11,7 +11,8 @@ function resolveDatabaseUrl(): string | undefined {
     process.env.DATABASE_URL ||
     process.env.POSTGRES_PRISMA_URL ||
     process.env.PRISMA_POSTGRES_DATABASE_URL ||
-    process.env.POSTGRES_URL;
+    process.env.POSTGRES_URL ||
+    process.env.STORAGE_URL;
 
   // On Vercel serverless functions, the root directory is read-only.
   // If using SQLite (file:), copy the pre-seeded SQLite database to /tmp so writes succeed.
